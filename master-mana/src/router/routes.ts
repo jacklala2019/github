@@ -1,11 +1,19 @@
+/*
+ * @Author: Lala Jack
+ * @Date: 2020-10-23 18:04:12
+ * @LastEditors: Ji Lala
+ * @LastEditTime: 2020-10-23 18:06:25
+ * @motto: Still water run deep
+ * @Description: Modify here please
+ * @FilePath: \master-mana\src\router\routes.ts
+ */
 import Home from '../containers/home'
 import Login from '../containers/user/Login'
 import Error_404 from '../containers/error/404'
 
 import Welcome from '@/containers/home/Welcome'
 import AddQuestions from '@/containers/home/questions/AddQuestions'
-import Student from '@/containers/home/classmanager/Student';
-import Classroom from '@/containers/home/classmanager/Classroom';
+
 export default [
     {
         path: '/',
